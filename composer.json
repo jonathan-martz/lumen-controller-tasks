@@ -1,0 +1,35 @@
+{
+  "name": "jonathan-martz/lumen-controller-tasks",
+  "description": "Php Lumen Tasks Controller",
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^7.4",
+    "jonathan-martz/lumen-controller": "^0.3.7",
+    "jonathan-martz/laravel-model-project": "^0.1",
+    "illuminate/validation": "^7.0",
+    "illuminate/support": "^7.0",
+    "illuminate/database": "^7.0",
+    "illuminate/http": "^7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "controller/",
+      "provider/"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Jonathan Martz",
+      "email": "composer@jmartz.de",
+      "homepage": "https://www.jmartz.de",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "App\\Providers\\TasksProvider"
+      ]
+    }
+  }
+}
