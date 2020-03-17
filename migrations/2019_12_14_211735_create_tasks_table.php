@@ -25,6 +25,7 @@ class CreateTasksTable extends Migration
             $table->string('description');
             $table->integer('PID');
             $table->integer('PTID');
+            $table->integer('prio');
             $table->boolean('highlight');
             $table->date('created_at');
             $table->date('updated_at');
