@@ -6,6 +6,7 @@
     "php": "^7.3|^7.4",
     "jonathan-martz/lumen-controller": "^0.4.1",
     "jonathan-martz/laravel-model-project": "^0.1",
+    "jmartz-gmbh/laravel-migration-tasks": "dev-master",
     "illuminate/validation": "^7.0",
     "illuminate/support": "^7.0",
     "illuminate/database": "^7.0",
